@@ -1,16 +1,56 @@
-# React + Vite
+<h1 align="center">💻 Computing Modules</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <em>A simple React project showcasing 3rd Year Computing modules at the National College of Ireland.</em>
+</p>
 
-Currently, two official plugins are available:
+<h2>📘 About the Project</h2>
+<p>
+  This project was created as part of my practice while learning <strong>React</strong>. 
+  It’s a simple and visually appealing web page that displays four computing modules:
+</p>
+<ul>
+  <li><strong>Advanced Computer Networks</strong> – An in-depth study of modern networking technologies and protocols.</li>
+  <li><strong>Artificial Intelligence</strong> – Exploration of AI concepts, algorithms, and applications.</li>
+  <li><strong>Security Fundamentals</strong> – Understanding the principles and practices of computer security.</li>
+  <li><strong>Advanced Programming</strong> – Advanced techniques and paradigms in software development.</li>
+</ul>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h2>⚙️ Technologies Used</h2>
+<ul>
+  <li>React.js</li>
+  <li>Framer Motion</li>
+  <li>HTML5 & CSS3</li>
+  <li>JavaScript (ES6+)</li>
+</ul>
 
-## React Compiler
+<h2>🚀 Getting Started</h2>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<ol>
+  <li>Clone the repository:</li>
 
-## Expanding the ESLint configuration
+  <pre><code>git clone https://github.com/stefanyrjunges/cs-modules-app.git</code></pre>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  <li>Navigate into the project folder:</li>
+
+  <pre><code>cd cs-modules-app</code></pre>
+
+  <li>Install dependencies:</li>
+
+  <pre><code>npm install</code></pre>
+
+  <li>Run the app locally:</li>
+
+  <pre><code>npm start</code></pre>
+
+  <li>Open your browser at:</li>
+
+  <pre><code>http://localhost:3000</code></pre>
+</ol>
+
+<h2>🎯 Purpose</h2>
+
+<p>
+  This project was built to reinforce my understanding of React components, props, and JSX structure. 
+  It served as hands-on practice for building reusable UI elements and styling them consistently.
+</p>
