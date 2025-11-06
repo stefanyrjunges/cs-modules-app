@@ -1,0 +1,15 @@
+#read-more {
+    background-color: var(--color-secondary);
+    font-weight: 600;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 0 0 3px rgba(62, 198, 207, 0.5);
+}
+
+#read-more:hover {
+    background-color: var(--color-tertiary);
+}

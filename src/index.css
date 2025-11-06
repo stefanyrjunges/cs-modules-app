@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Stack+Sans+Notch:wght@200..700&display=swap');
+
+body {
+    font-family: "Stack Sans Notch", sans-serif;
+    box-sizing: border-box;
+    color: var(--color-text);
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+}
+
+:root {
+    --color-text: #02294f;
+    --color-accent: #F27D42;
+    --color-bg-light: #FF9966;
+    --color-primary: #58BDCA;
+    --color-secondary: #3EC6CF;
+    --color-tertiary: #2FA6B0;
+    --color-container: #C8EFF9;
+}
+
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+main {
+    margin: auto;
+}
+
+/* By prismic.io */
+.bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, var(--color-bg-light) 50%, var(--color-primary) 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+}
+
+.bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+}
+
+.bg3 {
+    animation-duration:5s;
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+
+#cs-modules {
+    padding: 3rem;
+    background-color: var(--color-accent);
+    justify-content: center;
+    align-items: center;
+}
+
+#modules-title {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+

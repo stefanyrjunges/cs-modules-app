@@ -1,0 +1,48 @@
+#cs-modules h1 {
+    font-size:1.2rem;
+    margin-bottom:8px;
+    font-weight: 700;
+}
+
+#cs-modules p {
+    font-size: 0.95rem;
+    color: var(--color-text);
+    line-height: 1.5;
+    opacity: 0.8;
+}
+
+#cs-modules img {
+    margin: auto;
+    display: block;
+}
+
+#modules-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin: 0 auto;
+    padding: 0;
+    gap: 3rem;
+    list-style-type: none;
+    justify-items: center;
+    align-items: start;
+    width: 100%;
+    max-width: 1200px;
+}
+
+#modules-list li {
+    list-style: none;
+    text-align: center;
+}
+
+#modules-container {
+    padding: 2rem;
+    border-radius: 1.5rem;
+    background-color: var(--color-container);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#modules-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
